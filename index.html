@@ -56,7 +56,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research and Publications</heading>
               <p style="text-align:justify">
-                My PhD research focuses on identifying power delivery, thermal, and signaling challenges in 2.5D and 3D ICs and exploring techniques to mitigate them. I leverage analytical techniques for system level modeling of heterogeneous integration schemes.
+                My PhD research focuses on identifying power delivery, thermal, and signaling challenges in 2.5D and 3D ICs and exploring techniques to mitigate them. I also investigate the impact of 3D integration on emerging non-volatile memory device-based compute in-memory (CIM) inference engine models. For my research, I leverage analytical techniques for system level modeling of heterogeneous integration schemes.
                 <!-- Representative papers are <span class="highlight">highlighted</span>. -->
               </p>
             </td>
@@ -102,6 +102,45 @@
               <!-- <p>Embedding a convnet within a predefined texture atlas enables simultaneous view synthesis and relighting.</p> -->
             </td>
           </tr> 
+          <tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nlt_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/background_slide.svg" type="img/svg">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/background_slide.svg' width="160">
+              </div>
+              <script type="text/javascript">
+                function nlt_start() {
+                  document.getElementById('nlt_image').style.opacity = "1";
+                }
+
+                function nlt_stop() {
+                  document.getElementById('nlt_image').style.opacity = "0";
+                }
+                nlt_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/9159194">
+                <papertitle>Thermal Modeling of 3D Polylithic Integration and Implications on BEOL RRAM Performance</papertitle>
+              </a>
+              <br>
+              <strong>Ankit Kaul</strong>,
+              <a href="http://https://shimeng.ece.gatech.edu/people/">Xiaochen Peng</a>,
+              <a href="http://bakirlab.gatech.edu/lab-members/sreejith-kochupurackal-rajan">Sreejith Kochupurackal Rajan</a>,
+              <a href="http://https://shimeng.ece.gatech.edu/professor/">Shimeng Yu</a>,
+              <a href="https://www.ece.gatech.edu/faculty-staff-directory/muhannad-s-bakir">Muhannad S. Bakir</a>
+              <br>
+              <em><a href="https://ieee-iedm.org/">IEDM</a></em>, 2020 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="data/kaul_2020.bib">bibtex</a>
+              <p></p>
+              <!-- <p>Embedding a convnet within a predefined texture atlas enables simultaneous view synthesis and relighting.</p> -->
+            </td>
+          </tr> 
+
 
         </tbody></table>
 
